@@ -12,7 +12,7 @@ Ao criar um programa em C++ você sempre seguirá os seguintes passos:
 
 Para fazer tal, você deve conhecer o compilador que você usa. Por exemplo, eu uso o GCC.
 
-### [O GCC e suas nuances][1]
+### [O GCC e suas nuances][Usando o GCC na prática]
 
 Primeiramente, confira se o compilador `g++`, presente na suíte GCC, está instalado:
 
@@ -26,7 +26,7 @@ E, caso queira usar seu programa, em um ambiente Linux, use `./meu_programa.ext_
 
 ### O primeiro programa
 
-Para criar o primeiro programa, primeiro importe da [biblioteca padrão][2] as [interfaces de manipulação de entrada e saída][3]. Para isso, insira a seguinte linha antes de inserir seu código:
+Para criar o primeiro programa, primeiro importe da [biblioteca padrão][Wikipedia - Biblioteca padrão do C++] as [interfaces de manipulação de entrada e saída][Microsoft - iostream]. Para isso, insira a seguinte linha antes de inserir seu código:
 
     #include<iostream>
 
@@ -68,6 +68,6 @@ O comando `cout` mostra na tela uma mensagem "jogada" em cima dele. Para ser ins
     cout << mensagem;
    
    
-   [1]: https://www.geeksforgeeks.org/compiling-with-g-plus-plus/
-   [2]: https://pt.wikipedia.org/wiki/Biblioteca_padr%C3%A3o_do_C%2B%2B
-   [3]: https://docs.microsoft.com/pt-br/cpp/standard-library/iostream?view=vs-2019
+   [Usando o GCC na prática]: https://www.geeksforgeeks.org/compiling-with-g-plus-plus/
+   [Wikipedia - Biblioteca padrão do C++]: https://pt.wikipedia.org/wiki/Biblioteca_padr%C3%A3o_do_C%2B%2B
+   [Microsoft - iostream]: https://docs.microsoft.com/pt-br/cpp/standard-library/iostream?view=vs-2019

@@ -101,6 +101,16 @@ O C++ permite sete tipos de dados:
 |bool       |booleano (verdadeiro ou falso)                   |
 |void       | sem valor                                       |
 
+### [caracteres][IME - Char]
+
+O tipo `char` é, literalmente, um caractere. Vada variável do tipo `char` é capaz de armazenar um caractere ASCII de 8 bits (256 valores possíveis). Esses caracteres podem ser inseridos tanto com seu valor numérico quanto com seu valor literal. Observe o exemplo:
+
+    char valor_com_numero = 65;
+    char valor_literal = 'A';
+
+Em ambos os casos, estamos inserindo o caractere `'A'`, mas no primeiro caso usamos o seu [código ASCII][Wikipedia - tabela ASCII], e no segundo caso usamos seu literal.
+
+Também existe o tipo [`wchar_t`][C++ - wchar_t], que é usado para mostrar caracteres que não estão inclusos no tipo `char` convencional.
    
    [Usando o GCC na prática]: https://www.geeksforgeeks.org/compiling-with-g-plus-plus/
    [Wikipedia - Biblioteca padrão do C++]: https://pt.wikipedia.org/wiki/Biblioteca_padr%C3%A3o_do_C%2B%2B
@@ -110,3 +120,6 @@ O C++ permite sete tipos de dados:
    [StackOverflow - Qual a diferença entre uma linguagem de programação estática e dinâmica?]: https://pt.stackoverflow.com/questions/21508/qual-a-diferen%C3%A7a-entre-uma-linguagem-de-programa%C3%A7%C3%A3o-est%C3%A1tica-e-din%C3%A2mica
    [StackOverflow - O que é estilo de tipagem?]: https://pt.stackoverflow.com/questions/190463/o-que-%C3%A9-estilo-de-tipagem
    [cppconference - Tipos de Dados do C++]: https://pt.cppreference.com/w/cpp/data_types
+   [IME - Char]: https://www.ime.usp.br/~elo/IntroducaoComputacao/Caracter.htm
+   [Wikipedia - tabela ASCII]: https://pt.wikipedia.org/wiki/ASCII
+   [C++ - wchar_t]: http://www.cplusplus.com/reference/cwchar/wchar_t/

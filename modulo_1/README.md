@@ -110,7 +110,7 @@ O tipo `char` é, literalmente, um caractere. Vada variável do tipo `char` é c
 
 Em ambos os casos, estamos inserindo o caractere `'A'`, mas no primeiro caso usamos o seu [código ASCII][Wikipedia - tabela ASCII], e no segundo caso usamos seu literal.
 
-Também existe o tipo [`wchar_t`][C++ - wchar_t], que é usado para mostrar caracteres que não estão inclusos no tipo `char` convencional.
+Também existe o tipo [`wchar_t`][C++ - wchar_t], que é usado para mostrar caracteres que não estão inclusos no tipo `char` convencional. Nesse grupo estão inclusos caracteres dos idiomas asiáticos, como o mandarim e o japonês, e, em alguns casos, emojis.
    
    [Usando o GCC na prática]: https://www.geeksforgeeks.org/compiling-with-g-plus-plus/
    [Wikipedia - Biblioteca padrão do C++]: https://pt.wikipedia.org/wiki/Biblioteca_padr%C3%A3o_do_C%2B%2B
